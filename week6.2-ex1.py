@@ -20,7 +20,7 @@ def my_filter(filter_function: any, iterable: Iterable) -> List:
     :return: A list with the elements that passed the filter.
     """
     if filter_function is None:
-        return [item for item in iterable if bool(item) is True]
+        return [item for item in iterable if bool(item)]
     return [item for item in iterable if filter_function(item)]
 
 
