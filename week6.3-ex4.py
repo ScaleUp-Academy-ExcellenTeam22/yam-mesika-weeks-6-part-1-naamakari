@@ -5,7 +5,8 @@ LAST_NAMES = ['cohen', 'levi', 'mizrahi']
 
 def full_names(first_names: List[str], last_names: List[str], min_length: int = 0) -> List:
     """
-    The function gets a list of first and last names and creates full names, while upper each first letter in the name.
+    The function gets a list of first and last names and creates full names,
+       and becomes a capital letter every first letter in the name.
     :param first_names: List of first names.
     :param last_names: List of last names
     :param min_length: Minimum length for full name, the default value is 0, meaning any length is obtained.
