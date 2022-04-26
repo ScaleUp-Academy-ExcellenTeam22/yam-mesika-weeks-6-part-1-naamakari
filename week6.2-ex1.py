@@ -6,7 +6,7 @@ from typing import List
 def is_positive(number: int) -> bool:
     """
     The function checks if the received number is positive.
-    :param number: The number to check if it positive.
+    :param number: The number to check if is positive.
     :return: If the number is positive or not.
     """
     return number > 0
@@ -14,7 +14,7 @@ def is_positive(number: int) -> bool:
 
 def my_filter(filter_function: any, iterable: Iterable) -> List:
     """
-    The function filters the received iterable according the received filter function.
+    The function filters the received iterable according to the received filter function.
     :param filter_function: A function to filter according to.
     :param iterable: The iterable that needs to be filtered according to the function received.
     :return: A list with the elements that passed the filter.
