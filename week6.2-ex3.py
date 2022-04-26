@@ -8,7 +8,7 @@ def timer(f, *parameters: any, **parameters2: any) -> float:
     :param f: The received function.
     :param parameters: The received parameters, zero or more.
     :param parameters2: The received parameters, zero or more, with the name of the each parameter.
-    :return: The time it takes to perform the obtained function with the obtained parameters.
+    :return: The time it takes to execute the received function with the received parameters.
     """
     start_time = time()
     f.__call__(*parameters, **parameters2)
