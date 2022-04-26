@@ -3,8 +3,8 @@ from time import time
 
 def timer(f, *parameters: any, **parameters2: any) -> float:
     """
-    The function receives a function and parameters and calculates how long it takes to perform
-     the function obtained with the obtained parameters.
+    The function receives a function and parameters and calculates how long it takes to execute
+     the function received with the received parameters.
     :param f: The received function.
     :param parameters: The received parameters, zero or more.
     :param parameters2: The received parameters, zero or more, with the name of the each parameter.
